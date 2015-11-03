@@ -23,6 +23,7 @@ class ArticlesController < ApplicationController
 
   def show
     @article = Article.find(params[:id])
+    render 'data/course_1'
   end
 
   def index
