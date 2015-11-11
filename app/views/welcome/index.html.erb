@@ -1,4 +1,32 @@
-<h1>北京正信医疗培训系统欢迎您!</h1>
-<!--<h2>请登录</h2>-->
-<%= link_to '查看我的课程', controller: 'articles' %>
-<!--<%= link_to '添加课程', new_article_path %>-->
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>北京正信医疗培训</title>
+      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+      <![endif]-->
+    </head>
+    <body>
+        <header class="navbar navbar-fixed-top navbar-inverse">
+          <div class="container">
+            <!--<%= link_to "sample app", '#', id: "logo" %>-->
+            <nav>
+              <ul class="nav navbar-nav pull-right">
+                <!--<li><%= link_to "Home",   '#' %></li>-->
+                <li><%= link_to "注册", signup_path %></li>
+                <li><%= link_to "登陆", '#' %></li>
+              </ul> </nav>
+          </div>
+        </header>
+        <h1>北京正信医疗培训系统欢迎您!</h1>
+
+        <!--<h2>请登录</h2>-->
+        <%= link_to '查看我的课程', controller: 'articles' %>
+        <!--<%= link_to '添加课程', new_article_path %>-->
+
+        <div class="container">
+          <%= yield %>
+        </div>
+    </body>
+</html>
