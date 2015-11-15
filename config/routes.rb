@@ -1,5 +1,5 @@
 BankingRails::Application.routes.draw do
-  get "users/new"
+
   # get "welcome/index"
   root 'welcome#index'
   # The priority is based upon order of creation: first created -> highest priority.
@@ -8,7 +8,7 @@ BankingRails::Application.routes.draw do
   resources :articles
   # You can have the root of your site routed with "root"
   resources :comments
-
+  resources :users
 
   resources :articles do
     resources :comments
