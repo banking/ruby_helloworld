@@ -1,11 +1,14 @@
 <% provide(:title, @user.name) %>
+<h1>个人信息</h1>
 <div class="row">
   <aside class="col-md-4">
     <section class="user_info">
-      <h1>
-        <%= gravatar_for @user %>
-        <%= @user.name %>
-      </h1>
+      <ul class="nav navbar-nav pull-right">
+        <li><%= gravatar_for @user %></li>
+        <li>用户名: <%= @user.name %></li>
+        <li>手机号: <%= @user.phone %></li>
+        <li>所属医院: <%= @user.address %></li>
+      </ul>
     </section>
   </aside>
 </div>

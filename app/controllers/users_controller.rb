@@ -11,8 +11,10 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      log_in @user
       flash[:success] = "Welcome to 正信医疗管理系统!"
-      redirect_to @user
+      # redirect_to @user
+      redirect_to root_url
     else
       render 'new'
     end
