@@ -1173,7 +1173,6 @@ i {
 	height: 32px;
 
 	border-radius: 0 !important;
-	background-image: url("../img/icons.png") !important;
 	line-height: 1;
 	vertical-align: middle !important;
 }
@@ -1510,14 +1509,13 @@ i {
 
 .icon-box i.light {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-	background: #fafafa url(../img/btn-soc.png) repeat-x top;
 	border: 1px solid #dedede;
 
 	text-shadow: 0 1px 1px #d0d3d5;
 }
 
 .gray-content .icon-box i.light {
-	background: #fff url(../img/btn-soc.png) repeat-x top;
+	background: #fff repeat-x top;
 }
 
 .icon-box i.colored {
@@ -1703,7 +1701,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 }
 
 .tabs-nav li:hover {
-	background: #fdfdfd url(../img/btn-soc.png) repeat-x top;
+	background: #fdfdfd  repeat-x top;
 	color: #333;
 }
 
@@ -2002,7 +2000,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 	position: relative;
 	top: -3px;
 
-	background: #e34735  url(../img/btn-bg.png) repeat-x top;
+	background: #e34735 repeat-x top;
 	border-radius: 50%;
 
 	text-align: center;
@@ -2263,7 +2261,7 @@ shortcodes .btn { margin-right: 8px; }
 }
 
 a.btn:hover {
-	background: #edeeef url(../img/btn-soc.png) repeat-x top;
+	background: #edeeef repeat-x top;
 	border: 1px solid #d4d4d4;
 
 }
@@ -2309,7 +2307,7 @@ a.btn i {
 /*----------------------*/
 
 .btn.colored {
-	background: #e34735 url(../img/btn-bg.png) repeat-x top;
+	background: #e34735 repeat-x top;
 	border: 1px solid #df4432;
 
 	color: #fff;
@@ -2317,7 +2315,7 @@ a.btn i {
 }
 
 .btn.colored:hover { 
-	background: #d4281c url(../img/btn-bg.png) repeat-x top;
+	background: #d4281c repeat-x top;
 	box-shadow: 0 1px 3px #f9dad7;
 	border: 1px solid #d4281c;
 
@@ -2329,7 +2327,7 @@ a.btn i {
 /*----------------------*/
 
 .btn.opacity {
-	background: rgba(250,250,250,0.1) url(../img/btn-black.png) repeat-x top;
+	background: rgba(250,250,250,0.1) repeat-x top;
 	border: 1px solid #fff;
 
 	color: rgba(250,250,250,0.8);
@@ -2337,7 +2335,7 @@ a.btn i {
 }
 
 .btn.opacity:hover { 
-	background: rgba(250,250,250,0.3) url(../img/btn-black.png) repeat-x top;
+	background: rgba(250,250,250,0.3) repeat-x top;
 	border: 1px solid #d4281c;
 
 	color: #fff;
@@ -2348,7 +2346,7 @@ a.btn i {
 /*----------------------*/
 
 .btn.green {
-	background: #64be33 url(../img/btn-bg.png) repeat-x top;
+	background: #64be33 repeat-x top;
 	border: 1px solid #52b027;
 
 	color: #fff;
@@ -2356,7 +2354,7 @@ a.btn i {
 }
 
 .btn.green:hover { 
-	background: #3fa11a url(../img/btn-bg.png) repeat-x top;
+	background: #3fa11a repeat-x top;
 	box-shadow: 0 2px 4px #e0f2d6;
 	border: 1px solid #3fa11a;
 
@@ -4500,7 +4498,7 @@ z-index:999;
 	text-shadow: 0 1px 0 #f7e86b;
 	color: #723725;
 }
-.32-32{width:65%;float:left;}
+
 .index8{
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
